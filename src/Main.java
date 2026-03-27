@@ -36,7 +36,7 @@ public class Main {
         //задача 3
         System.out.println("Задача 3");
         int[] inputArray3 = {5930, 2030, 4030, 8324, 8051};
-        boolean[] outputArray3 = new boolean[5];
+        boolean[] outputArray3 = new boolean[inputArray3.length];
         int z = 0;
         for (float element : inputArray3) {
             if (element > 5000) {
@@ -49,13 +49,13 @@ public class Main {
 
         //задача 4
         System.out.println("Задача 4");
-        double[] inputArray4 = {5930, 2030, -4030, 8324, 8051};
-        boolean[] outputArray4 = new boolean[5];
+        int[] inputArray4 = {5930, 2030, -4030, 8324, 8051};
+        boolean[] outputArray4 = new boolean[inputArray4.length];
         int b = 0;
-        for (double element : inputArray4) {
+        for (int element : inputArray4) {
             if (element > 0) {
                 outputArray4[b] = true;
-            } else if (element < 0) {
+            } else {
                 break;
             }
             b++;
@@ -66,11 +66,11 @@ public class Main {
 
         //задача 5
         System.out.println("Задача 5");
-        double[] inputArray5 = {59330, 23030, -40330, 83324, 80351};
-        boolean[] outputArray5 = new boolean[5];
+        int[] inputArray5 = {59330, 23030, -40330, 83324, 80351};
+        boolean[] outputArray5 = new boolean[inputArray5.length];
         int moon = 0;
         int c = 0;
-        for (double element : inputArray5) {
+        for (int element : inputArray5) {
             if (element > 0) {
                 outputArray5[c] = true;
             }
